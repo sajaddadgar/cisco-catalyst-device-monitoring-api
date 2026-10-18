@@ -1,0 +1,27 @@
+
+[
+  {
+    "hostname": "sw1",
+    "managementIpAddress": "10.10.20.175",
+    "reachabilityStatus": "Reachable",
+    "type": "Cisco Catalyst 9000 Virtual Switch",
+    "softwareVersion": "17.12.1prd9",
+    "role": "ACCESS"
+  },
+  {
+    "hostname": "sw2",
+    "managementIpAddress": "10.10.20.176",
+    "reachabilityStatus": "Reachable",
+    "type": "Cisco Catalyst 9000 Virtual Switch",
+    "softwareVersion": "17.12.1prd9",
+    "role": "ACCESS"
+  },
+  {
+    "hostname": "sw3",
+    "managementIpAddress": "10.10.20.177",
+    "reachabilityStatus": "Unreachable",
+    "type": "Cisco Catalyst 9000 Virtual Switch",
+    "softwareVersion": "17.12.1prd9",
+    "role": "ACCESS"
+  }
+]
