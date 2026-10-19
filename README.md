@@ -3,17 +3,6 @@
 A Python backend built with **FastAPI** that retrieves Cisco Catalyst Center network-device inventory and exposes simple REST endpoints for listing devices, filtering by reachability, and looking up a device by hostname.
 
 
-## Features
-
-- Fetches Catalyst Center device inventory using `/dna/intent/api/v1/network-device`.
-- Authenticates via `/dna/system/api/v1/auth/token` and uses `X-Auth-Token` for subsequent requests.
-- Reuses an API client and exposes a dependency through FastAPI `Depends()`.
-- Exposes device listing, reachability filtering, and hostname lookup.
-- Handles network exceptions and upstream failures, including timeout errors.
-- Logs important events without deliberately logging passwords or tokens.
-- Uses Pytest, FastAPI TestClient, and mocked dependencies for repeatable endpoint tests.
-- Runs locally or in Docker.
-- **Optional demo mode:** switches the device-data source from Cisco to a local fixture without changing API endpoints.
 
 ## Architecture
 
